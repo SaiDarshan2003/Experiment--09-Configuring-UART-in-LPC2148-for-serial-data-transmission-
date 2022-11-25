@@ -49,6 +49,7 @@ UART0 Line Control Register (U0LCR): The Line Control Register is used to set th
 ## Figure -02 UART interface virtual terminal
 
 ### Kiel - Program 
+
 '''
 #include <LPC213x.H>              // LPC21xx definitions                      */
 char a;
@@ -74,6 +75,7 @@ int main (void)  {
   }                               
 }
 '''
+
 ### Result :
 UART is programmed for transmitting serial data on virtual terminal  
 
